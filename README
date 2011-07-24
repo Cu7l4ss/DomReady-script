@@ -1,4 +1,4 @@
-__Usage:__
+## Usage:
 
 DomReady.ready(function () { alert("Dom is ready") });
 

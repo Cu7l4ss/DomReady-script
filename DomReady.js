@@ -92,7 +92,6 @@
         };
     } else if(document.attachEvent) {
         DOMContentLoaded = function() {
-            // Make sure body exists, at least, in case IE gets a little overzealous (ticket #5443).
             if(document.readyState === "complete") {
                 isReady = true;
                 document.detachEvent("onreadystatechange", DOMContentLoaded);
